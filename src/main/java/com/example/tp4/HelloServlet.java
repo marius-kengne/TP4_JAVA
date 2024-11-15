@@ -1,13 +1,10 @@
-package com.example.tp_02;
+package com.example.tp4;
 
 import java.io.*;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
 
 
 public class HelloServlet extends HttpServlet {

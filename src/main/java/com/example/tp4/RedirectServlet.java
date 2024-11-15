@@ -1,4 +1,4 @@
-package com.example.tp_02;
+package com.example.tp4;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
