@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/hello.html");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("hello.html");
         dispatcher.forward(request, response);
 
     }
