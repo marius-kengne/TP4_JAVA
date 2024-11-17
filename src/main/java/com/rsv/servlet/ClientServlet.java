@@ -1,15 +1,15 @@
 package com.rsv.servlet;
 
-import com.example.tp4.HelloServlet;
 import com.rsv.beans.Client;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-public class ClientServlet extends HelloServlet {
+public class ClientServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

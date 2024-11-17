@@ -14,15 +14,9 @@
         <url-pattern>/HelloServlet</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.example.tp4.LoginServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/LoginServlet</url-pattern>
-    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>hello.jsp</welcome-file>
+    </welcome-file-list>
 
     <servlet>
         <servlet-name>RedirectServlet</servlet-name>
@@ -51,5 +45,15 @@
     <servlet-mapping>
         <servlet-name>ReservationServlet</servlet-name>
         <url-pattern>/reservation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Formulaire</servlet-name>
+        <servlet-class>com.example.tp4.Controller.FormController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Formulaire</servlet-name>
+        <url-pattern>/Formulaire</url-pattern>
     </servlet-mapping>
 </web-app>
