@@ -19,7 +19,7 @@ public class ReservationServlet extends HttpServlet {
             request.setAttribute("error", error);
             request.getSession().removeAttribute("error");
         }
-        RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/Views/reservation.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("WEB-INF/Views/reservation.jsp");
         dispatcher.forward(request, response);
     }
 
